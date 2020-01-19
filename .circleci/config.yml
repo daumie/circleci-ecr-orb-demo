@@ -19,8 +19,6 @@ workflows:
           dockerfile: Dockerfile
           # Path to the directory containing your Dockerfile and build context. Defaults to . (working directory).
           path: .
-          # AWS profile name to be configured.
-          profile-name: AWS_PROFILE
           # Name of env var storing your AWS region information, defaults to AWS_REGION
           region: AWS_REGION
           # Name of an Amazon ECR repository
