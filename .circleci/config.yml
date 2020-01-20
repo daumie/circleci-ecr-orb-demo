@@ -25,4 +25,4 @@ workflows:
           repo: circleci-ecr-orb-demo
           # A comma-separated string containing docker image tags to build and push (default = latest)
           # Consider using $CIRCLE_BUILD_NUM
-          tag: "$CIRCLE_BUILD_NUM"
+          tag: "$CIRCLE_SHA1, $CIRCLE_BUILD_NUM"
