@@ -22,7 +22,7 @@ workflows:
           # Name of env var storing your AWS region information, defaults to AWS_REGION
           region: AWS_REGION
           # Name of an Amazon ECR repository
-          repo: AWS_ECR_REPO_NAME
+          repo: circleci-ecr-orb-demo
           # A comma-separated string containing docker image tags to build and push (default = latest)
           # Consider using $CIRCLE_BUILD_NUM
           tag: "$CIRCLE_SHA1"
