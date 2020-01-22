@@ -14,5 +14,5 @@ workflows:
           dockerfile: Dockerfile
           path: .
           region: AWS_REGION
-          repo: test-create-repo
+          repo: circleci-ecr-orb-de
           tag: "$CIRCLE_SHA1"
